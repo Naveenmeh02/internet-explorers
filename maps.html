@@ -5,14 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./maps.css">
 </head>
 <body>
-    <h1>maps</h1>
-    <br>
     <div id="mySidenav" class="sidenav">
-        <a href="./index.html" id="Home">Home</a>
-        <a href="./maps.html" id="Maps">Maps</a>
-        </div>
+        <a href="./index.html" id="projects">Home</a>
+        <a href="credits.html" id="contact">Credits</a>
+    </div>
+    <div class="grid">
+        <img src="./snazzy-image.png" alt="" width="500px;"
+        height="500px;">
+    </div>
+    <!-- maps -->
 </body>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+        }
+        
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+        function openNav2() {
+            document.getElementById("mySidenav").style.width = "15%";
+            }
+            
+            function closeNav2() {
+            document.getElementById("mySidenav").style.width = "0";
+            }
+            $(document).ready(function(){
+                $("iframe").width($(window).width());
+                $("iframe").height($(window).height());
+            });
+        </script>
 </html>
